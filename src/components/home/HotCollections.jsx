@@ -15,7 +15,6 @@ const HotCollections = () => {
     const { data } = await axios.get(
       "https://us-central1-nft-cloud-functions.cloudfunctions.net/hotCollections"
     );
-    console.log(data);
     setHotCollections(data);
     setLoading(false);
   }
@@ -23,10 +22,6 @@ const HotCollections = () => {
   useEffect(() => {
     fetchHotCollections();
   }, []);
-
-  useEffect(() => {
-    console.log(loading);
-  }, [loading]);
 
   const skeletonLoading = (
     <div className="nft_coll nft_coll--skeleton">
