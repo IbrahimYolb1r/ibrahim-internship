@@ -1,0 +1,9 @@
+.skeleton__loading--container {
+    display: flex;
+    gap: 16px;
+}
+
+.nft_coll--skeleton {
+    text-align: center;
+    width: 25%;
+}
