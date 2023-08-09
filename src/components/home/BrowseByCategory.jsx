@@ -33,7 +33,7 @@ const BrowseByCategory = () => {
           <div className="col-md-2 col-sm-4 col-6 mb-sm-30">
             <Link to="/explore" className="icon-box style-2 rounded">
               <i className="fa fa-globe"></i>
-              <span>Virtual Worlds</span>
+              <span>Virtual World</span>
             </Link>
           </div>
           <div className="col-md-2 col-sm-4 col-6 mb-sm-30">
